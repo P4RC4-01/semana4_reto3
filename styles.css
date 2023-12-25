@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(220, 220, 220, 0.952);
+}
+
+header{
+    /* display: grid;
+    grid-template-columns: repeat();
+     */
+     display: flex;
+     align-items: flex-start;
+}
+
+nav{
+    order:10;
+    margin-left:15% ;
+}
+
+.diseño-lista{
+    list-style-type: none;
+    display: flex;
+}
+
+.diseño-lista li{
+    padding-left:10px ;
+    padding-right: 10px;
+}
+
+
+.diseño-lista a{
+    text-decoration: none;
+}
+
+.logo {
+    order: 5;
+}
+
+.diseño-contacto{
+    order:15;
+    margin-top: 15px;
+    margin-left: 420px;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.diseño-contacto {
+    list-style-type: none;
+}
+
+.diseño-contacto a{
+    text-decoration: none;
+}
+
+
+
+
